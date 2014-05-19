@@ -2,6 +2,7 @@
 #include "stdafx.h"
 #include "math.h"
 
+using namespace common;
 
 bool Vector3::IsEmpty() const
 {

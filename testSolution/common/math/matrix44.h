@@ -1,9 +1,11 @@
 #pragma once
 
-
-struct vector3;
-struct Matrix44
+namespace common
 {
+
+	struct vector3;
+	struct Matrix44
+	{
 	union
 	{
 		struct
@@ -29,4 +31,6 @@ struct Matrix44
 
 	Matrix44 operator * ( const Matrix44& rhs ) const;
 	Matrix44& operator *= ( const Matrix44& rhs );
-};
+	};
+
+}
