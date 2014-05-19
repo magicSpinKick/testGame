@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common", "common\common.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graphic", "graphic\graphic.vcxproj", "{9DFE9159-0E09-472F-A202-0D04C54392E7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Framework", "Framework\Framework.vcxproj", "{F4B2017C-7351-44B0-B926-DC306D6667AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{9DFE9159-0E09-472F-A202-0D04C54392E7}.Debug|Win32.Build.0 = Debug|Win32
 		{9DFE9159-0E09-472F-A202-0D04C54392E7}.Release|Win32.ActiveCfg = Release|Win32
 		{9DFE9159-0E09-472F-A202-0D04C54392E7}.Release|Win32.Build.0 = Release|Win32
+		{F4B2017C-7351-44B0-B926-DC306D6667AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F4B2017C-7351-44B0-B926-DC306D6667AB}.Debug|Win32.Build.0 = Debug|Win32
+		{F4B2017C-7351-44B0-B926-DC306D6667AB}.Release|Win32.ActiveCfg = Release|Win32
+		{F4B2017C-7351-44B0-B926-DC306D6667AB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
