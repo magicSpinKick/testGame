@@ -14,6 +14,9 @@ void Matrix44::SetIdentity()
 }
 
 
+
+
+
 void	Matrix44::SetRotationX( const float angle )
 {
 	float fCos = cosf( angle );
